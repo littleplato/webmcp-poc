@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   useWebMCP({
-    name: 'increment_counter',
+    name: 'increase_count',
     description: 'Increment the counter by a given amount',
     inputSchema: {
       amount: z.coerce.number().int().min(1).default(1).describe('Amount to increment by'),
