@@ -60,17 +60,18 @@ After decrypting, the result will be an English word representing a number (e.g.
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>WebMCP Demo</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
+      <p>
+        Connect this page to Claude Desktop via the MCP Browser extension, then
+        ask Claude to interact with this page using the available tools.
+      </p>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Available tools: <code>increase_count</code>, <code>decrypt_rot3</code>
       </p>
     </>
   )
